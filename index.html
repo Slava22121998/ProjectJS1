@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Магазин компьютерной техники</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-box-container">
+      <header class="header">
+        <p>Добро пожаловать в "Planet of computers"</p>
+      </header>
+      <div class="flex-box-middle-info">
+        <main class="main">
+          <p>
+            Добро пожаловать в интернет-магазин компьютеров, программного
+            обеспечения и торгового оборудования "РеалТайм" !
+          </p>
+          <p>Большой выбор товаров для работы, учёбы и отдыха.</p>
+          <p>
+            Покупайте в нашем магазине самую современную технику для комфорта и
+            уверенности не только в настоящем, но и в будущем !
+          </p>
+          <p>
+            Если нужна помощь в использовании программного обеспечения - мы с
+            радостью поможем !
+          </p>
+          <p>
+            Если сломался компьютер, ноутбук, принтер или МФУ- наши специалисты
+            найдут решение и спасут оборудование.
+          </p>
+          <p>
+            Предпринимателям мы поможем наиболее рационально организовать
+            рабочие места с помощью оборудования и программного обеспечения.
+          </p>
+          <p>Мы работаем с физическими и юридическими лицами.</p>
+        </main>
+        <aside class="sidebar">
+          <a href="contacts.html"
+            >&#9875;Перейти на страницу с нашими контактами</a
+          >
+          <a href="info.html"
+            >&#9875;Перейти на страницу с информацией о компании</a
+          >
+        </aside>
+      </div>
+      <article class="calc">
+        <p>Калькулятор квадратных уравнений</p>
+        <form action="">
+          <input type="number" id="a" placeholder="a" /> x<sup>2</sup> +
+          <input type="number" id="b" placeholder="b" /> x +
+          <input type="number" id="c" placeholder="c" /> = 0 <br /><br />
+          <input type="button" value="Решить" / onclick="prog()">
+        </form>
+        <div id="return">
+          <h2 style="text-align: center;">Результат:</h2>
+          <pre id="result"></pre>
+        </div>
+      </article>
+      <script src="./calc.js"></script>
+      <footer class="footer">
+        <p>Ждем Вас у нас в магазине!</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+p {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.flex-box-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  background-image: url(https://it.agnyi.ru/wp-content/uploads/2019/02/banner_bg.jpg);
+  background-position: center;
+}
+.header {
+  margin: 5px;
+  align-self: center;
+}
+.flex-box-middle-info {
+  display: flex;
+}
+.main {
+  margin: 5px;
+}
+.sidebar {
+  margin: 5px;
+}
+.sidebar a {
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.footer {
+  margin: 5px;
+  align-self: center;
+}
+a {
+  text-decoration: none;
+}
+.calc {
+  background-color: gray;
+  margin: 10px;
+  padding: 10px;
+}
+#return {
+  display: none;
+}
+pre {
+  margin: 20px auto;
+  width: 350px;
+  padding: 25px;
+  background: honeydew;
+  border: solid 1px black;
+  font-size: 18px;
+}
+input[type="number"] {
+  width: 40px;
+  text-align: right;
+}
+input[type="button"] {
+  background-color: rebeccapurple;
+  border: none;
+  padding: 10px 35px;
+  font-size: 20px;
+  color: red;
+  border-radius: 6px;
+}
+input[type="button"]:hover {
+  opacity: 0.8;
+}
